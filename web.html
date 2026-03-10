@@ -3,12 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>아우름 웰니스 서비스 제안서</title>
-<meta property="og:title" content="아우름 웰니스 서비스 제안서">
-<meta property="og:description" content="마사지를 넘어, 피지컬 케어와 힐링 프로그램으로 — B2B 종합복지서비스 전문업체">
-<meta property="og:url" content="https://nugoona.github.io/aurumwellness/">
-<meta property="og:image" content="https://nugoona.github.io/aurumwellness/images/hero/sub_vis02.jpg">
-<meta property="og:type" content="website">
+<title>아우름 웰니스 서비스 제안서 - Web</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter+Tight:wght@300;400;500;600;700&family=Nanum+Pen+Script&family=Gaegu&family=Hi+Melody&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
@@ -74,11 +69,11 @@ body {
 
 /* === Page Inner === */
 .pi {
-  padding: 80px 60px;
+  padding: 40px 24px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   width: 100%;
 }
@@ -87,7 +82,7 @@ body {
 .section-header {
   text-align: center;
   display: flex; flex-direction: column; align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 .section-header .sl {
   font-size: 13px; font-weight: 500; color: var(--gold);
@@ -245,7 +240,7 @@ br.m { display: none; }
   font-size: 15px; font-weight: 300; color: var(--gold-dark); margin-bottom: 10px;
 }
 #p4 .therapist-photo {
-  height: 200px; overflow: hidden; margin-top: 10px;
+  height: 400px; overflow: hidden; margin-top: 10px;
   border: 1px solid var(--border); background: var(--cream);
 }
 #p4 .therapist-photo img {
@@ -275,12 +270,12 @@ br.m { display: none; }
   font-size: 26px; font-weight: 300; color: var(--text); margin-bottom: 16px;
   font-family: 'Arita Buri', serif;
 }
-#p4 .timeline { position: relative; padding-left: 24px; flex: 1; }
+#p4 .timeline { position: relative; padding-left: 24px; flex: 1; display: flex; flex-direction: column; justify-content: space-evenly; }
 #p4 .timeline::before {
   content: ''; position: absolute; left: 3px; top: 6px; bottom: 6px;
   width: 2px; background: rgba(200,165,73,0.3);
 }
-#p4 .timeline-item { position: relative; margin-bottom: 12px; }
+#p4 .timeline-item { position: relative; margin-bottom: 0; }
 #p4 .timeline-item:last-child { margin-bottom: 0; }
 #p4 .timeline-dot {
   position: absolute; left: -24px; top: 3px; width: 8px; height: 8px;
@@ -294,7 +289,7 @@ br.m { display: none; }
   font-family: 'Gowun Batang', Georgia, serif;
 }
 #p4 .timeline-footer {
-  display: flex; align-items: center; justify-content: center; gap: 10px;
+  display: flex; align-items: center; justify-content: flex-start; gap: 10px;
   margin-top: auto; padding-top: 20px; font-size: 11px; color: var(--text-muted);
 }
 #p4 .timeline-footer span {
@@ -302,7 +297,7 @@ br.m { display: none; }
 }
 /* -- Bottom: 4 images in a row -- */
 #p4 .activity-strip {
-  display: flex; gap: 4px; flex: 1; min-height: 0;
+  display: flex; gap: 4px; flex: 0 0 auto; max-height: 360px; overflow: hidden;
 }
 #p4 .activity-strip .act-card {
   flex: 1; overflow: hidden; position: relative;
@@ -320,7 +315,7 @@ br.m { display: none; }
   position: absolute; bottom: 0; left: 0; right: 0; padding: 8px 8px 6px;
   background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.1) 70%, transparent 100%);
   padding-top: 30px;
-  font-size: 9px; color: rgba(255,255,255,0.85); font-weight: 600; letter-spacing: 0.03em;
+  font-size: 21px; color: rgba(255,255,255,0.85); font-weight: 400; letter-spacing: 0.03em;
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
 }
 
@@ -409,7 +404,7 @@ br.m { display: none; }
   min-height: 0; opacity: 0.9;
 }
 #p2 .news-body {
-  flex: 6; padding: 14px 16px;
+  flex: 3; padding: 10px 16px;
   display: flex; flex-direction: column; justify-content: center; align-items: center;
   text-align: center; background: var(--dark-surface);
 }
@@ -453,16 +448,16 @@ br.m { display: none; }
   box-shadow: 0 1px 2px rgba(0,0,0,0.08);
 }
 #p3 .track-card img {
-  width: 100%; height: 200px; object-fit: cover; display: block;
+  width: 100%; height: 400px; object-fit: cover; display: block;
 }
 #p3 .track-body { padding: 16px 18px; flex: 1; display: flex; flex-direction: column; }
 #p3 .track-title { font-size: 20px; font-weight: 500; color: var(--text); margin-bottom: 6px; }
 #p3 .track-desc { font-size: 15px; color: var(--text-muted); line-height: 1.4; margin-bottom: 10px; font-family: 'Gowun Batang', Georgia, serif; }
-#p3 .track-tags { display: flex; flex-wrap: nowrap; gap: 0; margin-top: auto; width: 100%; }
+#p3 .track-tags { display: flex; flex-wrap: nowrap; gap: 4px; margin-top: auto; width: auto; }
 #p3 .track-tags .tag {
   border: 1px solid #ffffff; color: #ffffff; background: var(--dark);
-  border-radius: 0; padding: 3px 0; font-size: 10px; font-weight: 300; white-space: nowrap;
-  flex: 1; text-align: center;
+  border-radius: 0; padding: 6px 12px; font-size: 20px; font-weight: 300; white-space: nowrap;
+  flex: 0 0 auto; text-align: center;
 }
 
 /* Why cards — left gold accent + watermark number */
@@ -493,8 +488,8 @@ br.m { display: none; }
 
 /* === P5: Service Programs — Body Therapy === */
 #p5 { background: var(--white); }
-#p5 .pi { padding: 60px 60px; display: flex; flex-direction: column; height: 100%; box-sizing: border-box; }
-#p5 .section-header { margin-bottom: 16px; }
+#p5 .pi { padding: 40px 24px; display: flex; flex-direction: column; height: 100%; box-sizing: border-box; }
+#p5 .section-header { margin-bottom: 40px; }
 
 /* Dark text band (horizontal, full width) */
 #p5 .pg-text-band {
@@ -506,19 +501,19 @@ br.m { display: none; }
   flex: 0 0 auto; text-align: center; min-width: 220px;
 }
 #p5 .pg-band-label {
-  font-size: 10px; font-weight: 600; letter-spacing: 4px; color: var(--gold);
-  text-transform: uppercase; margin-bottom: 6px;
+  font-size: 15px; font-weight: 600; letter-spacing: 4px; color: var(--gold);
+  text-transform: uppercase; margin-bottom: 8px;
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
 }
 #p5 .pg-band-title {
-  font-family: 'Arita Buri', serif; font-size: 22px; font-weight: 400;
-  color: #f5f0e8; margin-bottom: 8px; letter-spacing: 0.5px;
+  font-family: 'Arita Buri', serif; font-size: 33px; font-weight: 400;
+  color: #f5f0e8; margin-bottom: 10px; letter-spacing: 0.5px;
   text-shadow: 0 1px 6px rgba(0,0,0,0.8);
 }
-#p5 .pg-band-divider { width: 36px; height: 1px; background: var(--gold); margin: 0 auto; }
+#p5 .pg-band-divider { width: 42px; height: 1px; background: var(--gold); margin: 0 auto; }
 #p5 .pg-band-sep { width: 1px; background: rgba(200,165,73,0.25); align-self: stretch; }
 #p5 .pg-band-desc {
-  flex: 1; font-family: 'Gowun Batang', Georgia, serif; font-size: 15px;
+  flex: 1; font-family: 'Gowun Batang', Georgia, serif; font-size: 22px;
   font-weight: 400; color: rgba(255,255,255,0.8); line-height: 1.7;
   text-shadow: 0 1px 2px rgba(0,0,0,0.35);
 }
@@ -539,6 +534,7 @@ br.m { display: none; }
 .svc-row-thumbs { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 1px; min-height: 0; }
 .svc-row-thumbs img { width: 100%; height: 100%; object-fit: cover; display: block; min-height: 0; }
 .svc-row-thumbs img:first-child { object-position: left center; }
+
 .svc-badge-deco { display: flex; align-items: center; gap: 6px; margin-bottom: 5px; }
 .svc-badge-deco .line { width: 24px; height: 1px; background: rgba(200,165,73,0.5); }
 .svc-badge-deco .diamond { width: 5px; height: 5px; background: rgba(200,165,73,0.7); transform: rotate(45deg); }
@@ -549,17 +545,18 @@ br.m { display: none; }
 .svc-badge-sep .dot { width: 3px; height: 3px; border-radius: 50%; background: rgba(200,165,73,0.6); }
 .svc-badge-en { font-family: 'Gowun Batang', Georgia, serif; font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.8); letter-spacing: 0.5px; text-shadow: 0 1px 4px rgba(0,0,0,0.7); }
 
+#p5 { min-height: auto; }
 #p5 .svc-rows { display: flex; flex-direction: column; gap: 2px; flex: 1; min-height: 0; }
-#p5 .svc-rows .svc-row { flex: 1; min-height: 0; overflow: hidden; }
-#p5b { background: var(--cream); }
-#p5b .pi { padding: 60px 60px; display: flex; flex-direction: column; height: 100%; box-sizing: border-box; }
+#p5 .svc-rows .svc-row { flex: 1; min-height: 0; overflow: hidden; max-height: 560px; }
+#p5b { background: var(--cream); min-height: auto; }
+#p5b .pi { padding: 40px 24px; display: flex; flex-direction: column; height: auto; box-sizing: border-box; }
 #p5b .svc-rows { display: flex; flex-direction: column; gap: 2px; flex: 1; min-height: 0; }
-#p5b .svc-rows .svc-row { flex: 1; min-height: 0; overflow: hidden; }
+#p5b .svc-rows .svc-row { flex: 1; min-height: 0; overflow: hidden; max-height: 560px; }
 
 /* === P6: Exercise & Custom Therapy === */
-#p6 { background: var(--cream); }
-#p6 .pi { padding: 60px 60px; }
-#p6 .pg-section { flex: 0 0 auto; display: flex; flex-direction: column; min-height: 0; }
+#p6 { background: var(--cream); min-height: auto; }
+#p6 .pi { padding: 40px 24px; }
+#p6 .pg-section { flex: 0 0 auto; display: flex; flex-direction: column; min-height: 0; max-height: 700px; overflow: hidden; }
 
 /* Dark text band (horizontal) */
 #p6 .pg-text-band {
@@ -568,11 +565,11 @@ br.m { display: none; }
   padding: 32px 28px; gap: 24px; flex-shrink: 0;
 }
 #p6 .pg-band-left { flex: 0 0 auto; text-align: center; min-width: 220px; }
-#p6 .pg-band-label { font-size: 10px; font-weight: 600; letter-spacing: 4px; color: var(--gold); text-transform: uppercase; margin-bottom: 6px; text-shadow: 0 1px 4px rgba(0,0,0,0.7); }
-#p6 .pg-band-title { font-family: 'Arita Buri', serif; font-size: 22px; font-weight: 400; color: #f5f0e8; margin-bottom: 8px; letter-spacing: 0.5px; text-shadow: 0 1px 6px rgba(0,0,0,0.8); }
-#p6 .pg-band-divider { width: 36px; height: 1px; background: var(--gold); margin: 0 auto; }
+#p6 .pg-band-label { font-size: 15px; font-weight: 600; letter-spacing: 4px; color: var(--gold); text-transform: uppercase; margin-bottom: 8px; text-shadow: 0 1px 4px rgba(0,0,0,0.7); }
+#p6 .pg-band-title { font-family: 'Arita Buri', serif; font-size: 33px; font-weight: 400; color: #f5f0e8; margin-bottom: 10px; letter-spacing: 0.5px; text-shadow: 0 1px 6px rgba(0,0,0,0.8); }
+#p6 .pg-band-divider { width: 42px; height: 1px; background: var(--gold); margin: 0 auto; }
 #p6 .pg-band-sep { width: 1px; background: rgba(200,165,73,0.25); align-self: stretch; }
-#p6 .pg-band-desc { flex: 1; font-family: 'Gowun Batang', Georgia, serif; font-size: 15px; font-weight: 400; color: rgba(255,255,255,0.8); line-height: 1.7; text-shadow: 0 1px 2px rgba(0,0,0,0.35); }
+#p6 .pg-band-desc { flex: 1; font-family: 'Gowun Batang', Georgia, serif; font-size: 22px; font-weight: 400; color: rgba(255,255,255,0.8); line-height: 1.7; text-shadow: 0 1px 2px rgba(0,0,0,0.35); }
 
 /* Image row (fills remaining space) */
 #p6 .pg-image-row {
@@ -616,32 +613,32 @@ br.m { display: none; }
   display: flex; flex-direction: column; gap: 14px;
 }
 #p8 .partner-left .partner-label {
-  font-size: 10px; font-weight: 500; letter-spacing: 3px; color: var(--gold);
-  text-transform: uppercase; margin-bottom: 6px;
+  font-size: 20px; font-weight: 500; letter-spacing: 3px; color: var(--gold);
+  text-transform: uppercase; margin-bottom: 12px;
 }
 #p8 .partner-left .partner-heading {
-  font-family: var(--fh); font-size: 24px; font-weight: 300; color: var(--text);
-  margin-bottom: 20px;
+  font-family: var(--fh); font-size: 48px; font-weight: 300; color: var(--text);
+  margin-bottom: 40px;
 }
-#p8 .partner-left .partner-group { margin-bottom: 14px; }
+#p8 .partner-left .partner-group { margin-bottom: 28px; }
 #p8 .partner-left .partner-group-title {
-  font-size: 11px; font-weight: 600; color: var(--text-sub); margin-bottom: 4px;
+  font-size: 22px; font-weight: 600; color: var(--text-sub); margin-bottom: 8px;
 }
 #p8 .partner-left .partner-group-body {
-  font-size: 10px; color: var(--text-muted); line-height: 1.7;
+  font-size: 20px; color: var(--text-muted); line-height: 1.7;
   font-family: 'Gowun Batang', Georgia, serif;
 }
 
-#p8 .partner-right { flex: 0 0 320px; padding: 24px 0 20px 24px; display: flex; flex-direction: column; }
+#p8 .partner-right { flex: 0 0 40%; padding: 24px 0 20px 24px; display: flex; flex-direction: column; }
 #p8 .chip-group { margin-bottom: 0; }
 #p8 .chip-group-label {
-  font-size: 9px; font-weight: 600; letter-spacing: 2px; color: var(--text-sub);
-  margin-bottom: 6px;
+  font-size: 18px; font-weight: 600; letter-spacing: 2px; color: var(--text-sub);
+  margin-bottom: 12px;
 }
-#p8 .chip-list { display: flex; flex-wrap: wrap; gap: 5px; }
+#p8 .chip-list { display: flex; flex-wrap: wrap; gap: 8px; }
 #p8 .chip {
-  font-size: 10px; font-weight: 400; color: var(--text-sub);
-  padding: 4px 10px; border: 1px solid var(--border); border-radius: 20px;
+  font-size: 18px; font-weight: 400; color: var(--text-sub);
+  padding: 8px 16px; border: 1px solid var(--border); border-radius: 20px;
   white-space: nowrap; line-height: 1.3;
 }
 #p8 .logo-grid {
@@ -651,21 +648,21 @@ br.m { display: none; }
   background: transparent; overflow: hidden;
   display: flex; align-items: center; justify-content: center; padding: 3px;
 }
-#p8 .logo-cell img { width: 100%; height: 100%; object-fit: contain; }
+#p8 .logo-cell img { width: 65%; height: 65%; object-fit: contain; }
 
 
 /* === P9: Reviews === */
 #p9 { background: var(--cream); }
 #p9 .section-header { margin-bottom: 40px; }
 #p9 .review-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-#p9 .review-card { padding: 14px 16px; background: var(--white); border-radius: 0; border: 1px solid var(--border); display: flex; flex-direction: column; }
-#p9 .review-stars { color: var(--gold); font-size: 11px; margin-bottom: 8px; letter-spacing: 2px; }
-#p9 .review-text { font-size: 14px; color: var(--text-sub); line-height: 1.7; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid var(--border); font-family: 'Gowun Batang', Georgia, serif; }
-#p9 .review-author { font-size: 10px; color: var(--text); font-weight: 500; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+#p9 .review-card { padding: 28px 24px; background: var(--white); border-radius: 0; border: 1px solid var(--border); display: flex; flex-direction: column; min-height: 200px; }
+#p9 .review-stars { color: var(--gold); font-size: 22px; margin-bottom: 12px; letter-spacing: 4px; }
+#p9 .review-text { font-size: 24px; color: var(--text-sub); line-height: 1.7; margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--border); font-family: 'Gowun Batang', Georgia, serif; }
+#p9 .review-author { font-size: 20px; color: var(--text); font-weight: 500; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 #p9 .review-author span { font-weight: 400; color: var(--text-muted); }
 #p9 .review-tag {
-  display: inline-block; font-size: 9px; color: #fff !important; background: var(--dark);
-  padding: 2px 8px; font-weight: 500;
+  display: inline-block; font-size: 18px; color: #fff !important; background: var(--dark);
+  padding: 4px 14px; font-weight: 500;
 }
 #p9 .satisfaction-row { display: flex; gap: 14px; margin-top: 16px; }
 #p9 .sat-card { flex: 1; text-align: center; padding: 28px 12px; background: var(--white); border-radius: 0; border: 1px solid var(--border); }
@@ -676,15 +673,15 @@ br.m { display: none; }
 
 /* P9 Real Feedback section */
 #p9 .feedback-label {
-  font-size: 9px; font-weight: 600; letter-spacing: 2px; color: var(--text-muted);
-  text-align: center; margin: 28px 0 32px; text-transform: uppercase;
+  font-size: 18px; font-weight: 600; letter-spacing: 2px; color: var(--text-muted);
+  text-align: center; margin: 40px 0 40px; text-transform: uppercase;
 }
 
 /* KakaoTalk Chat UI — Realistic */
 #p9 .kakao-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 10px; align-items: stretch; }
 #p9 .kakao-row > div { display: flex; flex-direction: column; }
 #p9 .kakao-chat {
-  background: #b2c7d9; border-radius: 0; padding: 10px 10px 8px; overflow: hidden;
+  background: #b2c7d9; border-radius: 0; padding: 20px 20px 16px; overflow: hidden;
   display: flex; flex-direction: column; flex: 1;
   font-family: 'Pretendard Variable', -apple-system, 'Apple SD Gothic Neo', sans-serif;
 }
@@ -692,7 +689,7 @@ br.m { display: none; }
   display: flex; gap: 6px; margin-bottom: 4px; align-items: flex-start;
 }
 #p9 .kakao-avatar {
-  width: 28px; height: 28px; border-radius: 8px; flex-shrink: 0;
+  width: 56px; height: 56px; border-radius: 8px; flex-shrink: 0;
   overflow: hidden; background: #ddd;
 }
 #p9 .kakao-avatar img { width: 100%; height: 100%; object-fit: cover; }
@@ -702,14 +699,14 @@ br.m { display: none; }
 }
 #p9 .kakao-body { flex: 1; min-width: 0; }
 #p9 .kakao-name {
-  font-size: 8.5px; font-weight: 600; color: #333; margin-bottom: 3px; line-height: 1;
+  font-size: 17px; font-weight: 600; color: #333; margin-bottom: 6px; line-height: 1;
 }
 #p9 .kakao-bubble-wrap {
   display: flex; align-items: flex-end; gap: 3px; margin-bottom: 3px;
 }
 #p9 .kakao-bubble {
   position: relative; background: #fff; border-radius: 0 8px 8px 8px;
-  padding: 5px 8px; font-size: 9.5px; line-height: 1.5; color: #333;
+  padding: 10px 16px; font-size: 19px; line-height: 1.5; color: #333;
   word-break: keep-all; max-width: 90%;
 }
 #p9 .kakao-bubble::before {
@@ -720,25 +717,25 @@ br.m { display: none; }
   border-bottom: 6px solid transparent;
 }
 #p9 .kakao-bubble-cont {
-  display: flex; align-items: flex-end; gap: 3px; margin-bottom: 3px;
-  padding-left: 34px;
+  display: flex; align-items: flex-end; gap: 6px; margin-bottom: 6px;
+  padding-left: 62px;
 }
 #p9 .kakao-bubble-cont .kakao-bubble { border-radius: 8px; }
 #p9 .kakao-bubble-cont .kakao-bubble::before { display: none; }
 #p9 .kakao-time {
-  font-size: 7px; color: rgba(0,0,0,0.55); white-space: nowrap; flex-shrink: 0;
+  font-size: 14px; color: rgba(0,0,0,0.55); white-space: nowrap; flex-shrink: 0;
   line-height: 1; padding-bottom: 1px;
 }
 #p9 .kakao-from { display: none; }
 #p9 .kakao-title {
-  font-size: 8px; font-weight: 600; color: var(--text-muted); letter-spacing: 0.5px;
-  margin-bottom: 6px; font-family: 'Pretendard Variable', sans-serif;
+  font-size: 16px; font-weight: 600; color: var(--text-muted); letter-spacing: 0.5px;
+  margin-bottom: 12px; font-family: 'Pretendard Variable', sans-serif;
 }
 
 /* Survey Form UI */
 #p9 .survey-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
 #p9 .survey-card {
-  background: #fff; border: 1px solid #d5d0c8; border-radius: 0; padding: 12px 14px;
+  background: #fff; border: 1px solid #d5d0c8; border-radius: 0; padding: 24px 28px;
   position: relative; overflow: hidden;
 }
 #p9 .survey-card::before {
@@ -746,44 +743,44 @@ br.m { display: none; }
   background: var(--gold);
 }
 #p9 .survey-q {
-  font-size: 9.5px; font-weight: 600; color: var(--text); line-height: 1.5;
-  margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid #eee;
+  font-size: 19px; font-weight: 600; color: var(--text); line-height: 1.5;
+  margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid #eee;
 }
-#p9 .survey-answer { margin-bottom: 8px; }
+#p9 .survey-answer { margin-bottom: 16px; }
 #p9 .survey-score {
-  font-family: 'Nanum Pen Script', cursive; font-size: 28px; color: #333;
+  font-family: 'Nanum Pen Script', cursive; font-size: 56px; color: #333;
   font-weight: 400; display: inline-block;
   padding: 0 12px 2px; line-height: 1;
 }
-#p9 .survey-checks { display: flex; gap: 16px; }
+#p9 .survey-checks { display: flex; gap: 24px; }
 #p9 .survey-check {
-  display: flex; align-items: center; gap: 4px; font-size: 10px; color: var(--text-sub);
+  display: flex; align-items: center; gap: 8px; font-size: 20px; color: var(--text-sub);
 }
 #p9 .survey-check .box {
-  width: 13px; height: 13px; border: 1.5px solid #888; display: inline-flex;
-  align-items: center; justify-content: center; font-size: 10px; color: var(--gold-dark);
+  width: 26px; height: 26px; border: 1.5px solid #888; display: inline-flex;
+  align-items: center; justify-content: center; font-size: 20px; color: var(--gold-dark);
 }
 #p9 .survey-check .box.checked { border-color: var(--gold-dark); font-weight: 700; }
-#p9 .survey-comment-label { font-size: 8px; color: var(--text-muted); margin-bottom: 4px; }
+#p9 .survey-comment-label { font-size: 16px; color: var(--text-muted); margin-bottom: 8px; }
 #p9 .survey-comment {
-  font-size: 14px; color: #444; line-height: 1.5;
+  font-size: 28px; color: #444; line-height: 1.5;
 }
 #p9 .survey-card:nth-child(1) .survey-comment,
-#p9 .survey-card:nth-child(1) .survey-score { font-family: 'Nanum Pen Script', cursive; font-size: 15px; }
+#p9 .survey-card:nth-child(1) .survey-score { font-family: 'Nanum Pen Script', cursive; font-size: 30px; }
 #p9 .survey-card:nth-child(2) .survey-comment,
-#p9 .survey-card:nth-child(2) .survey-score { font-family: 'Hi Melody', cursive; font-size: 13px; letter-spacing: -0.5px; }
+#p9 .survey-card:nth-child(2) .survey-score { font-family: 'Hi Melody', cursive; font-size: 26px; letter-spacing: -0.5px; }
 #p9 .survey-card:nth-child(3) .survey-comment,
-#p9 .survey-card:nth-child(3) .survey-score { font-family: 'Gaegu', cursive; font-size: 16px; letter-spacing: -2px; }
+#p9 .survey-card:nth-child(3) .survey-score { font-family: 'Gaegu', cursive; font-size: 32px; letter-spacing: -2px; }
 
 #p9 .closing-quote {
-  text-align: center; margin-top: 24px; padding: 20px 0 0;
+  text-align: center; margin-top: 60px; padding: 60px 0;
 }
 #p9 .closing-quote .cq-highlight {
-  font-family: 'Arita Buri', Georgia, serif; font-size: 15px; font-weight: 300;
-  color: var(--gold-dark); letter-spacing: 0.5px; margin-bottom: 6px;
+  font-family: 'Arita Buri', Georgia, serif; font-size: 36px; font-weight: 300;
+  color: var(--gold-dark); letter-spacing: 0.5px; margin-bottom: 20px;
 }
 #p9 .closing-quote .cq-main {
-  font-size: 19px; font-weight: 300; color: var(--text);
+  font-size: 42px; font-weight: 300; color: var(--text);
   line-height: 1.7; letter-spacing: -0.02em;
 }
 #p9 .closing-quote .cq-brand {
@@ -792,24 +789,24 @@ br.m { display: none; }
 
 /* === P10: Pricing === */
 #p10 { background: var(--white); }
-#p10 .pi { padding: 60px 60px; }
-#p10 .price-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 15px; }
+#p10 .pi { padding: 24px 24px; }
+#p10 .price-table { width: 100%; border-collapse: collapse; margin-bottom: 40px; font-size: 30px; }
 #p10 .price-table thead th {
   background: var(--dark); color: var(--white); font-weight: 500;
-  padding: 12px 10px; text-align: center; font-size: 12px;
+  padding: 24px 16px; text-align: center; font-size: 24px;
 }
 #p10 .price-table thead th:first-child { text-align: left; }
 #p10 .price-table thead th:last-child { }
 #p10 .price-table tbody td {
-  padding: 14px 10px; text-align: center; border-bottom: 1px solid var(--border);
-  color: var(--text-sub); font-size: 13px;
+  padding: 28px 16px; text-align: center; border-bottom: 1px solid var(--border);
+  color: var(--text-sub); font-size: 26px;
 }
-#p10 .price-table tbody td:first-child { text-align: left; font-weight: 500; color: var(--text); font-size: 13px; }
+#p10 .price-table tbody td:first-child { text-align: left; font-weight: 500; color: var(--text); font-size: 26px; }
 #p10 .price-table tbody tr:last-child td { border-bottom: 2px solid var(--gold); }
-#p10 .price-table .cat-header { font-size: 10px; color: var(--gold-dark); font-weight: 600; letter-spacing: 0.05em; }
-#p10 .price-table .time-col { font-size: 11px; color: var(--text-muted); }
-#p10 .price-notes { font-size: 13px; color: var(--text-muted); line-height: 1.8; margin-bottom: 24px; padding-left: 12px; font-family: 'Gowun Batang', Georgia, serif; }
-#p10 .recommend-label { font-size: 11px; font-weight: 300; color: var(--text); margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+#p10 .price-table .cat-header { font-size: 20px; color: var(--gold-dark); font-weight: 600; letter-spacing: 0.05em; }
+#p10 .price-table .time-col { font-size: 22px; color: var(--text-muted); }
+#p10 .price-notes { font-size: 18px; color: var(--text-muted); line-height: 1.8; margin-bottom: 48px; padding-left: 12px; font-family: 'Gowun Batang', Georgia, serif; }
+#p10 .recommend-label { font-size: 22px; font-weight: 300; color: var(--text); margin-bottom: 28px; display: flex; align-items: center; gap: 8px; }
 #p10 .recommend-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
 #p10 .recommend-row { display: flex; gap: 0; flex: 1; border-top: 1px solid var(--border); }
 #p10 .rec-card {
@@ -823,19 +820,19 @@ br.m { display: none; }
 #p10 .rec-badge {
   display: inline-flex; align-items: center; justify-content: center;
   background: var(--gold); color: #fff;
-  font-family: 'Inter Tight', sans-serif; font-size: 11px; font-weight: 600;
-  padding: 3px 18px; border-radius: 0; letter-spacing: 0.08em;
-  position: absolute; top: -10px; left: 50%; transform: translateX(-50%);
+  font-family: 'Inter Tight', sans-serif; font-size: 22px; font-weight: 600;
+  padding: 6px 28px; border-radius: 0; letter-spacing: 0.08em;
+  position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
 }
-#p10 .rec-name { font-family: 'Inter Tight', sans-serif; font-size: 22px; font-weight: 600; color: var(--text); margin-bottom: 8px; }
-#p10 .rec-desc { font-size: 13px; color: var(--text-muted); line-height: 1.5; }
-#p10 .rec-top { min-height: 80px; display: flex; flex-direction: column; }
-#p10 .rec-price { font-size: 13px; font-weight: 600; color: var(--text); margin-top: auto; padding-top: 8px; }
-#p10 .rec-price span { font-size: 10px; font-weight: 400; color: var(--text-muted); }
-#p10 .rec-features { list-style: none; padding: 0; margin: 0; border-top: 1px solid #eee; padding-top: 12px; margin-top: 12px; }
+#p10 .rec-name { font-family: 'Inter Tight', sans-serif; font-size: 36px; font-weight: 600; color: var(--text); margin-bottom: 12px; }
+#p10 .rec-desc { font-size: 24px; color: var(--text-muted); line-height: 1.5; }
+#p10 .rec-top { min-height: 120px; display: flex; flex-direction: column; }
+#p10 .rec-price { font-size: 24px; font-weight: 600; color: var(--text); margin-top: auto; padding-top: 12px; }
+#p10 .rec-price span { font-size: 18px; font-weight: 400; color: var(--text-muted); }
+#p10 .rec-features { list-style: none; padding: 0; margin: 0; border-top: 1px solid #eee; padding-top: 20px; margin-top: 20px; }
 #p10 .rec-features li {
-  font-size: 10.5px; color: var(--text-sub); line-height: 1.4; padding: 3px 0;
-  padding-left: 12px; position: relative;
+  font-size: 20px; color: var(--text-sub); line-height: 1.4; padding: 6px 0;
+  padding-left: 16px; position: relative;
 }
 #p10 .rec-features li::before {
   content: '·'; position: absolute; left: 0; color: var(--text-muted);
@@ -844,7 +841,7 @@ br.m { display: none; }
 
 /* === P7: Portfolio === */
 #p7 { background: var(--dark); }
-#p7 .pi { padding: 40px 40px; }
+#p7 .pi { padding: 40px 24px; }
 #p7 .section-header { margin-bottom: 12px; }
 #p7 .pf-cat { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
 #p7 .pf-cat-label {
@@ -854,12 +851,12 @@ br.m { display: none; }
 #p7 .pf-cat-line { flex: 1; height: 1px; background: rgba(200,165,73,0.25); }
 #p7 .pf-bento {
   display: grid; grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 78px; gap: 2px; margin-bottom: 10px;
+  grid-auto-rows: 156px; gap: 2px; margin-bottom: 10px;
 }
 #p7 .pf-bento .pf-hero { grid-column: span 2; grid-row: span 2; }
 #p7 .pf-flat {
   display: grid; grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 92px; gap: 2px;
+  grid-auto-rows: 184px; gap: 2px;
 }
 #p7 .pf-card { position: relative; overflow: hidden; }
 #p7 .pf-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -1017,7 +1014,7 @@ br.m { display: none; }
 <!-- ============================================================ -->
 <div class="page" id="p1">
   <div class="cover-bg">
-    <img src="images/hero/sub_vis02.jpg" alt="">
+    <img src="../public/images/hero/sub_vis02.jpg" alt="">
     <div class="cover-overlay"></div>
   </div>
   <div class="cover-content">
@@ -1081,13 +1078,14 @@ br.m { display: none; }
     </div>
     <div class="intro-text">
       <span class="intro-company">아우름웰니스는</span>
-      <span class="ip">마사지 테라피스트 및 필라테스, 요가, 메이크업 아티스트, 컬러 테라피 등 다양한 분야의 전문가들이</span>
-      <span class="ip">맞춤형 테라피 서비스를 제공하는 <span class="intro-highlight">B2B 종합복지서비스 전문업체</span>입니다. 기업의 니즈에 맞춰 찾아가는 서비스로, 임직원 건강과 웰니스를 책임집니다.</span>
+      <span class="ip">마사지 테라피스트 및 필라테스, 요가, 메이크업 아티스트, 컬러 테라피 등 다양한 분야의 전문가들이 맞춤형 테라피 서비스를 제공하는 <span class="intro-highlight">B2B 종합복지서비스 전문업체</span>입니다.</span>
+      <br>
+      <span class="ip">기업의 니즈에 맞춰 찾아가는 서비스로, 임직원 건강과 웰니스를 책임집니다.</span>
     </div>
 
     <div class="track-row">
       <div class="track-card">
-        <img src="images/b2b/sub0201_3.jpg" alt="기업 복지 서비스">
+        <img src="../public/images/b2b/sub0201_3.jpg" alt="기업 복지 서비스">
         <div class="track-body">
           <div class="track-title">기업 임직원 복지 서비스</div>
           <div class="track-desc">
@@ -1103,7 +1101,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="track-card">
-        <img src="images/b2b/sub0201_4.jpg" alt="VIP 브랜드 이벤트">
+        <img src="../public/images/b2b/sub0201_4.jpg" alt="VIP 브랜드 이벤트">
         <div class="track-body">
           <div class="track-title">VIP · 브랜드 이벤트</div>
           <div class="track-desc">
@@ -1122,7 +1120,7 @@ br.m { display: none; }
 
     <div class="why-row">
       <div class="why-card">
-        <div class="why-thumb"><img src="images/b2b/why_01.jpg" alt="맞춤형 테라피"></div>
+        <div class="why-thumb"><img src="../public/images/b2b/why_01.jpg" alt="맞춤형 테라피"></div>
         <div class="why-body">
           <div class="why-num">01</div>
           <div class="why-text">
@@ -1132,7 +1130,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="why-card">
-        <div class="why-thumb"><img src="images/b2b/why_02.jpg" alt="업무 집중력"></div>
+        <div class="why-thumb"><img src="../public/images/b2b/why_02.jpg" alt="업무 집중력"></div>
         <div class="why-body">
           <div class="why-num">02</div>
           <div class="why-text">
@@ -1142,7 +1140,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="why-card">
-        <div class="why-thumb"><img src="images/b2b/why_03.jpg" alt="체감형 복지"></div>
+        <div class="why-thumb"><img src="../public/images/b2b/why_03.jpg" alt="체감형 복지"></div>
         <div class="why-body">
           <div class="why-num">03</div>
           <div class="why-text">
@@ -1171,7 +1169,7 @@ br.m { display: none; }
         <div class="therapist-name">김순재</div>
         <div class="therapist-role">대표 강사 · 체육학 석사</div>
         <div class="therapist-photo">
-          <img src="images/b2b/sub0201_1.png" alt="김순재 대표 테라피스트">
+          <img src="../public/images/b2b/sub0201_1.png" alt="김순재 대표 테라피스트">
         </div>
         <ul class="cred-list">
           <li>한국체육대학교 체육학 석사 (건강교육학 전공)</li>
@@ -1250,19 +1248,19 @@ br.m { display: none; }
     <!-- Activity Strip: 4 images in a row -->
     <div class="activity-strip">
       <div class="act-card">
-        <img src="images/b2b/act_01.png" alt="기업 복지 현장">
+        <img src="../public/images/b2b/act_01.png" alt="기업 복지 현장">
         <div class="act-label">기업 임직원 피지컬 케어</div>
       </div>
       <div class="act-card">
-        <img src="images/b2b/act_02.png" alt="테라피 클래스">
+        <img src="../public/images/b2b/act_02.png" alt="테라피 클래스">
         <div class="act-label">핸드테라피 클래스</div>
       </div>
       <div class="act-card">
-        <img src="images/b2b/act_03.png" alt="체어 테라피">
+        <img src="../public/images/b2b/act_03.png" alt="체어 테라피">
         <div class="act-label">체어 테라피</div>
       </div>
       <div class="act-card">
-        <img src="images/b2b/act_04.png" alt="기업 특강">
+        <img src="../public/images/b2b/act_04.png" alt="기업 특강">
         <div class="act-label">기업 특강 진행</div>
       </div>
     </div>
@@ -1286,7 +1284,7 @@ br.m { display: none; }
     </div>
     <div class="pf-bento">
       <div class="pf-card pf-hero">
-        <img src="images/portfolio/featured/p0520.jpg" alt="한화">
+        <img src="../public/images/portfolio/featured/p0520.jpg" alt="한화">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2022</span>
@@ -1294,7 +1292,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card pf-hero">
-        <img src="images/portfolio/featured/p1012.jpg" alt="스마일게이트">
+        <img src="../public/images/portfolio/featured/p1012.jpg" alt="스마일게이트">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2023</span>
@@ -1302,7 +1300,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/bcg2024.jpg" alt="BCG">
+        <img src="../public/images/portfolio/featured/bcg2024.jpg" alt="BCG">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2024</span>
@@ -1310,7 +1308,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/nestle2025.jpg" alt="네슬레">
+        <img src="../public/images/portfolio/featured/nestle2025.jpg" alt="네슬레">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2025</span>
@@ -1318,7 +1316,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/lawmin2025.jpg" alt="법무부">
+        <img src="../public/images/portfolio/featured/lawmin2025.jpg" alt="법무부">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2025</span>
@@ -1326,7 +1324,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/p0900.jpg" alt="SK텔레콤">
+        <img src="../public/images/portfolio/featured/p0900.jpg" alt="SK텔레콤">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2023</span>
@@ -1334,7 +1332,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/p0956.jpg" alt="기업은행">
+        <img src="../public/images/portfolio/featured/p0956.jpg" alt="기업은행">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2023</span>
@@ -1342,7 +1340,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/samsungfire2026.png" alt="삼성화재서비스">
+        <img src="../public/images/portfolio/featured/samsungfire2026.png" alt="삼성화재서비스">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2026</span>
@@ -1350,7 +1348,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/kto_seoul2022.jpg" alt="한국관광공사">
+        <img src="../public/images/portfolio/featured/kto_seoul2022.jpg" alt="한국관광공사">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2022</span>
@@ -1358,7 +1356,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/booking2025.jpg" alt="부킹닷컴">
+        <img src="../public/images/portfolio/featured/booking2025.jpg" alt="부킹닷컴">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2025</span>
@@ -1366,7 +1364,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/incheonairport2022.jpg" alt="인천공항공사">
+        <img src="../public/images/portfolio/featured/incheonairport2022.jpg" alt="인천공항공사">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2022</span>
@@ -1374,7 +1372,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/pg2025.jpg" alt="P&G">
+        <img src="../public/images/portfolio/featured/pg2025.jpg" alt="P&G">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2025</span>
@@ -1382,7 +1380,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/p0082.jpg" alt="KB국민카드">
+        <img src="../public/images/portfolio/featured/p0082.jpg" alt="KB국민카드">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2019</span>
@@ -1390,7 +1388,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/wonju2024.jpg" alt="원주시청">
+        <img src="../public/images/portfolio/featured/wonju2024.jpg" alt="원주시청">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2024</span>
@@ -1398,7 +1396,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/sh_housing2024.jpg" alt="서울주택도시공사">
+        <img src="../public/images/portfolio/featured/sh_housing2024.jpg" alt="서울주택도시공사">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2024</span>
@@ -1406,7 +1404,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/p0975.jpg" alt="농수산식품공사">
+        <img src="../public/images/portfolio/featured/p0975.jpg" alt="농수산식품공사">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2023</span>
@@ -1414,7 +1412,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/socialent2025.jpg" alt="한국사회적기업진흥원">
+        <img src="../public/images/portfolio/featured/socialent2025.jpg" alt="한국사회적기업진흥원">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2025</span>
@@ -1422,7 +1420,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/yangju2025.jpg" alt="양주시청">
+        <img src="../public/images/portfolio/featured/yangju2025.jpg" alt="양주시청">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2025</span>
@@ -1430,7 +1428,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/jeongseon2025.jpg" alt="정선군청">
+        <img src="../public/images/portfolio/featured/jeongseon2025.jpg" alt="정선군청">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2025</span>
@@ -1438,7 +1436,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/contentslab2024.jpg" alt="콘텐츠랩블루">
+        <img src="../public/images/portfolio/featured/contentslab2024.jpg" alt="콘텐츠랩블루">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2024</span>
@@ -1446,7 +1444,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/signature2025.jpg" alt="더시그니처">
+        <img src="../public/images/portfolio/featured/signature2025.jpg" alt="더시그니처">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2025</span>
@@ -1454,7 +1452,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/zentherm2025.jpg" alt="젠썸">
+        <img src="../public/images/portfolio/featured/zentherm2025.jpg" alt="젠썸">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2025</span>
@@ -1469,7 +1467,7 @@ br.m { display: none; }
     </div>
     <div class="pf-flat">
       <div class="pf-card">
-        <img src="images/portfolio/featured/p3540.jpg" alt="BMW Golf Cup">
+        <img src="../public/images/portfolio/featured/p3540.jpg" alt="BMW Golf Cup">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2024</span>
@@ -1477,7 +1475,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/p2892.jpg" alt="페라리">
+        <img src="../public/images/portfolio/featured/p2892.jpg" alt="페라리">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2020</span>
@@ -1485,7 +1483,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/p3320.jpg" alt="람보르기니">
+        <img src="../public/images/portfolio/featured/p3320.jpg" alt="람보르기니">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2023</span>
@@ -1493,7 +1491,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/lgenergy2023.jpg" alt="LG에너지솔루션">
+        <img src="../public/images/portfolio/featured/lgenergy2023.jpg" alt="LG에너지솔루션">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2023</span>
@@ -1501,7 +1499,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/porsche2025.jpg" alt="포르쉐 골프컵">
+        <img src="../public/images/portfolio/featured/porsche2025.jpg" alt="포르쉐 골프컵">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2025</span>
@@ -1509,7 +1507,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/amore_hq2019.jpg" alt="아모레퍼시픽">
+        <img src="../public/images/portfolio/featured/amore_hq2019.jpg" alt="아모레퍼시픽">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2019</span>
@@ -1517,7 +1515,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/benz2022.jpg" alt="벤츠">
+        <img src="../public/images/portfolio/featured/benz2022.jpg" alt="벤츠">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2022</span>
@@ -1525,7 +1523,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/shinhan2026.jpg" alt="신한은행">
+        <img src="../public/images/portfolio/featured/shinhan2026.jpg" alt="신한은행">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2026</span>
@@ -1533,7 +1531,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/lexus2019.jpg" alt="렉서스">
+        <img src="../public/images/portfolio/featured/lexus2019.jpg" alt="렉서스">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2019</span>
@@ -1541,7 +1539,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/lottedept2019.jpg" alt="롯데백화점">
+        <img src="../public/images/portfolio/featured/lottedept2019.jpg" alt="롯데백화점">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2019</span>
@@ -1549,7 +1547,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/hyundaidept2019.jpg" alt="현대백화점">
+        <img src="../public/images/portfolio/featured/hyundaidept2019.jpg" alt="현대백화점">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2019</span>
@@ -1557,7 +1555,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/audi2024.jpg" alt="아우디 콰트로컵">
+        <img src="../public/images/portfolio/featured/audi2024.jpg" alt="아우디 콰트로컵">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2024</span>
@@ -1565,7 +1563,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/loccitane2019.jpg" alt="록시땅">
+        <img src="../public/images/portfolio/featured/loccitane2019.jpg" alt="록시땅">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2019</span>
@@ -1573,7 +1571,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/skhynix2018.jpg" alt="SK하이닉스">
+        <img src="../public/images/portfolio/featured/skhynix2018.jpg" alt="SK하이닉스">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2018</span>
@@ -1581,7 +1579,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/canon2025.jpg" alt="캐논">
+        <img src="../public/images/portfolio/featured/canon2025.jpg" alt="캐논">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2025</span>
@@ -1589,7 +1587,7 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pf-card">
-        <img src="images/portfolio/featured/samsung2018.jpg" alt="삼성전자">
+        <img src="../public/images/portfolio/featured/samsung2018.jpg" alt="삼성전자">
         <div class="pf-card-ov"></div>
         <div class="pf-card-info">
           <span class="pf-card-yr">2018</span>
@@ -1659,41 +1657,41 @@ br.m { display: none; }
       </div>
       <div class="partner-right">
         <div class="logo-grid">
-          <div class="logo-cell"><img src="images/logos/main9_2.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_3.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_4.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_5.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_6.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_7.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_8.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_9.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_10.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_11.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_12.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_13.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_14.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_15.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_16.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_17.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_18.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_19.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_20.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_21.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_22.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_23.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_24.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_25.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_26.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_27.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_28.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_29.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_30.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_31.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_32.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_33.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_34.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_35.jpg" alt=""></div>
-          <div class="logo-cell"><img src="images/logos/main9_36.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_2.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_3.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_4.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_5.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_6.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_7.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_8.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_9.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_10.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_11.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_12.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_13.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_14.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_15.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_16.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_17.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_18.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_19.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_20.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_21.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_22.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_23.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_24.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_25.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_26.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_27.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_28.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_29.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_30.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_31.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_32.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_33.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_34.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_35.jpg" alt=""></div>
+          <div class="logo-cell"><img src="../public/images/logos/main9_36.jpg" alt=""></div>
         </div>
       </div>
     </div>
@@ -1835,7 +1833,7 @@ br.m { display: none; }
         <div class="pg-band-divider"></div>
       </div>
       <div class="pg-band-sep"></div>
-      <div class="pg-band-desc">해부학에 기반한 전문 바디 테라피. 피부와 근육을 동시에 케어하며, 단순 뷰티 관리를 넘어 체형 교정까지 아우르는 통합 피지컬 케어 프로그램.</div>
+      <div class="pg-band-desc">해부학에 기반한 전문 바디 테라피. 피부와 근육을 동시에 케어하며,<br>단순 뷰티 관리를 넘어 체형 교정까지 아우르는 통합 피지컬 케어 프로그램.</div>
     </div>
 
     <!-- 체어 테라피 + 릴렉스 테라피 rows -->
@@ -1843,7 +1841,7 @@ br.m { display: none; }
       <!-- 체어 테라피 -->
       <div class="svc-row">
         <div class="svc-row-main">
-          <img src="images/proposal/chair_therapy.png" alt="체어 테라피">
+          <img src="../public/images/proposal/chair_therapy.png" alt="체어 테라피">
           <div class="pg-overlay"></div>
           <div class="pg-badge">
             <div class="svc-badge-deco"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
@@ -1854,16 +1852,16 @@ br.m { display: none; }
           </div>
         </div>
         <div class="svc-row-thumbs">
-          <img src="images/proposal/thumbs/chair_1.jpg" alt="체어 현장1">
-          <img src="images/proposal/thumbs/chair_2.jpg" alt="체어 현장2">
-          <img src="images/proposal/thumbs/chair_3.png" alt="체어 현장3">
-          <img src="images/proposal/thumbs/chair_4.jpg" alt="체어 현장4">
+          <img src="../public/images/proposal/thumbs/chair_1.jpg" alt="체어 현장1">
+          <img src="../public/images/proposal/thumbs/chair_2.jpg" alt="체어 현장2">
+          <img src="../public/images/proposal/thumbs/chair_3.png" alt="체어 현장3">
+          <img src="../public/images/proposal/thumbs/chair_4.jpg" alt="체어 현장4">
         </div>
       </div>
       <!-- 릴렉스 테라피 -->
       <div class="svc-row">
         <div class="svc-row-main">
-          <img src="images/proposal/relax_chair.png" alt="릴렉스 테라피">
+          <img src="../public/images/proposal/relax_chair.png" alt="릴렉스 테라피">
           <div class="pg-overlay"></div>
           <div class="pg-badge">
             <div class="svc-badge-deco"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
@@ -1874,10 +1872,10 @@ br.m { display: none; }
           </div>
         </div>
         <div class="svc-row-thumbs">
-          <img src="images/proposal/thumbs/relax_1.png" alt="릴렉스 현장1">
-          <img src="images/proposal/thumbs/relax_2.png" alt="릴렉스 현장2">
-          <img src="images/proposal/thumbs/relax_3.jpg" alt="릴렉스 현장3">
-          <img src="images/proposal/thumbs/relax_4.png" alt="릴렉스 현장4">
+          <img src="../public/images/proposal/thumbs/relax_1.png" alt="릴렉스 현장1">
+          <img src="../public/images/proposal/thumbs/relax_2.png" alt="릴렉스 현장2">
+          <img src="../public/images/proposal/thumbs/relax_3.jpg" alt="릴렉스 현장3">
+          <img src="../public/images/proposal/thumbs/relax_4.png" alt="릴렉스 현장4">
         </div>
       </div>
     </div>
@@ -1894,7 +1892,7 @@ br.m { display: none; }
       <!-- 핸드 테라피 -->
       <div class="svc-row">
         <div class="svc-row-main">
-          <img src="images/proposal/hand_therapy.png" alt="핸드 테라피">
+          <img src="../public/images/proposal/hand_therapy.png" alt="핸드 테라피">
           <div class="pg-overlay"></div>
           <div class="pg-badge">
             <div class="svc-badge-deco"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
@@ -1905,16 +1903,16 @@ br.m { display: none; }
           </div>
         </div>
         <div class="svc-row-thumbs">
-          <img src="images/proposal/thumbs/hand_new_1.jpg" alt="핸드 현장1">
-          <img src="images/proposal/thumbs/hand_new_2.png" alt="핸드 현장2">
-          <img src="images/proposal/thumbs/hand_new_3.png" alt="핸드 현장3">
-          <img src="images/proposal/thumbs/hand_new_4.png" alt="핸드 현장4">
+          <img src="../public/images/proposal/thumbs/hand_new_1.jpg" alt="핸드 현장1">
+          <img src="../public/images/proposal/thumbs/hand_new_2.png" alt="핸드 현장2">
+          <img src="../public/images/proposal/thumbs/hand_new_3.png" alt="핸드 현장3">
+          <img src="../public/images/proposal/thumbs/hand_new_4.png" alt="핸드 현장4">
         </div>
       </div>
       <!-- 풋 테라피 -->
       <div class="svc-row">
         <div class="svc-row-main">
-          <img src="images/proposal/foot_therapy.png" alt="풋 테라피">
+          <img src="../public/images/proposal/foot_therapy.png" alt="풋 테라피">
           <div class="pg-overlay"></div>
           <div class="pg-badge">
             <div class="svc-badge-deco"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
@@ -1925,16 +1923,16 @@ br.m { display: none; }
           </div>
         </div>
         <div class="svc-row-thumbs">
-          <img src="images/proposal/thumbs/foot_1.jpg" alt="풋 현장1">
-          <img src="images/proposal/thumbs/foot_2.png" alt="풋 현장2">
-          <img src="images/proposal/thumbs/foot_3.png" alt="풋 현장3">
-          <img src="images/proposal/thumbs/foot_4.png" alt="풋 현장4">
+          <img src="../public/images/proposal/thumbs/foot_1.jpg" alt="풋 현장1">
+          <img src="../public/images/proposal/thumbs/foot_2.png" alt="풋 현장2">
+          <img src="../public/images/proposal/thumbs/foot_3.png" alt="풋 현장3">
+          <img src="../public/images/proposal/thumbs/foot_4.png" alt="풋 현장4">
         </div>
       </div>
       <!-- 베드 테라피 -->
       <div class="svc-row">
         <div class="svc-row-main">
-          <img src="images/proposal/bed_therapy.png" alt="베드 테라피">
+          <img src="../public/images/proposal/bed_therapy.png" alt="베드 테라피">
           <div class="pg-overlay"></div>
           <div class="pg-badge">
             <div class="svc-badge-deco"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
@@ -1945,10 +1943,10 @@ br.m { display: none; }
           </div>
         </div>
         <div class="svc-row-thumbs">
-          <img src="images/proposal/thumbs/bed_1.png" alt="베드 현장1">
-          <img src="images/proposal/thumbs/bed_2.jpg" alt="베드 현장2">
-          <img src="images/proposal/thumbs/bed_3.png" alt="베드 현장3">
-          <img src="images/proposal/thumbs/bed_4_new.png" alt="베드 현장4">
+          <img src="../public/images/proposal/thumbs/bed_1.png" alt="베드 현장1">
+          <img src="../public/images/proposal/thumbs/bed_2.jpg" alt="베드 현장2">
+          <img src="../public/images/proposal/thumbs/bed_3.png" alt="베드 현장3">
+          <img src="../public/images/proposal/thumbs/bed_4_new.png" alt="베드 현장4">
         </div>
       </div>
     </div>
@@ -1971,7 +1969,7 @@ br.m { display: none; }
       </div>
       <div class="pg-image-row">
         <div class="pg-card">
-          <img src="images/proposal/yoga.png" alt="요가 클래스">
+          <img src="../public/images/proposal/yoga.png" alt="요가 클래스">
           <div class="pg-overlay"></div>
           <div class="pg-badge">
             <div class="pg-badge-deco"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
@@ -1982,7 +1980,7 @@ br.m { display: none; }
           </div>
         </div>
         <div class="pg-card">
-          <img src="images/proposal/pilates.png" alt="필라테스 클래스">
+          <img src="../public/images/proposal/pilates.png" alt="필라테스 클래스">
           <div class="pg-overlay"></div>
           <div class="pg-badge">
             <div class="pg-badge-deco"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
@@ -2004,11 +2002,11 @@ br.m { display: none; }
           <div class="pg-band-divider"></div>
         </div>
         <div class="pg-band-sep"></div>
-        <div class="pg-band-desc">직원 간 유대감을 높이는 상호 테라피 특강.<br>기업 니즈에 맞춘 맞춤형 프로그램.</div>
+        <div class="pg-band-desc">직원 간 유대감을 높이는 상호 테라피 특강. 기업 니즈에 맞춘 맞춤형 프로그램.</div>
       </div>
       <div class="pg-image-row" style="grid-template-columns: 1fr; height: auto;">
         <div class="pg-card" style="height: 180px;">
-          <img src="images/proposal/therapy_workshop.png" alt="테라피 특강" style="object-position: center 65%;">
+          <img src="../public/images/proposal/therapy_workshop.png" alt="테라피 특강" style="object-position: center 65%;">
           <div class="pg-overlay"></div>
           <div class="pg-badge">
             <div class="pg-badge-deco"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
@@ -2020,9 +2018,9 @@ br.m { display: none; }
         </div>
       </div>
       <div class="pg-image-row" style="grid-template-columns: repeat(3, 1fr); height: auto; margin-top: 2px;">
-        <div class="pg-card" style="height: 200px;"><img src="images/proposal/workshop1.png" alt="특강 현장 1"><div class="pg-overlay"></div></div>
-        <div class="pg-card" style="height: 200px;"><img src="images/proposal/workshop2.jpg" alt="특강 현장 2"><div class="pg-overlay"></div></div>
-        <div class="pg-card" style="height: 200px;"><img src="images/proposal/workshop3.jpg" alt="특강 현장 3"><div class="pg-overlay"></div></div>
+        <div class="pg-card" style="height: 200px;"><img src="../public/images/proposal/workshop1.png" alt="특강 현장 1"><div class="pg-overlay"></div></div>
+        <div class="pg-card" style="height: 200px;"><img src="../public/images/proposal/workshop2.jpg" alt="특강 현장 2"><div class="pg-overlay"></div></div>
+        <div class="pg-card" style="height: 200px;"><img src="../public/images/proposal/workshop3.jpg" alt="특강 현장 3"><div class="pg-overlay"></div></div>
       </div>
     </div>
   </div>
